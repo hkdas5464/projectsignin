@@ -3,9 +3,7 @@ import { useRouter } from 'next/router';
 import { Card, CardBody, Navbar, NavbarBrand, NavbarContent, NavbarItem, Tab, Tabs } from '@nextui-org/react';
 import { BookAIcon, VideoIcon } from 'lucide-react';
 import Link from 'next/link';
-import { NotesIcon } from './icons/NotesIcon';
-import { PreviousYearQuestionIcon } from './icons/PreviousYearQuestionIcon.jsx';
-import { AllInOneIcon } from './icons/AllInOneIcon';
+
 import { Button } from '@heroui/button';
 
 const Dashboard: React.FC = () => {
@@ -315,7 +313,6 @@ const Dashboard: React.FC = () => {
             <Tab key="notes" title={
 
               <div className="flex items-center space-x-2">
-                <NotesIcon />
                 <span>Notes</span>
               </div>
             } >
@@ -371,7 +368,6 @@ const Dashboard: React.FC = () => {
             <Tab key="pyq" title={
 
               <div className="flex items-center space-x-2">
-                <PreviousYearQuestionIcon />
                 <span>Previous Year Questions</span>
               </div>
             } >
@@ -498,7 +494,6 @@ const Dashboard: React.FC = () => {
             <Tab key="allinone" title={
 
               <div className="flex items-center space-x-2">
-                <AllInOneIcon />
                 <span>All In One</span>
               </div>
             } >
