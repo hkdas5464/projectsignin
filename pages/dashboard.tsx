@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import NextNav from './Nextnav';
 import { Card, CardBody, Navbar, NavbarBrand, NavbarContent, NavbarItem, Tab, Tabs } from '@nextui-org/react';
 import { BookAIcon, VideoIcon } from 'lucide-react';
 import Link from 'next/link';
