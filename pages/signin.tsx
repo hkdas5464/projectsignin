@@ -45,7 +45,7 @@ const Signin: React.FC = () => {
       {/* Outer container with dark background */}
       <div className="min-h-screen bg-black text-white flex items-center justify-center px-4">
         <div className="w-full max-w-md">
-          <h1 className="text-3xl font-bold mb-2">Welcome back to Aceternity</h1>
+          <h1 className="text-3xl font-bold mb-2">Welcome back</h1>
           <p className="text-gray-400 mb-6">
             Sign in if you already have an account. Otherwise, create one now!
           </p>
@@ -63,7 +63,7 @@ const Signin: React.FC = () => {
               <input
                 id="email"
                 type="email"
-                placeholder="projectmayhem@fc.com"
+                placeholder="user@example.com"
                 className="w-full bg-gray-900 text-white border border-gray-700 
                            rounded-md px-3 py-2 focus:outline-none focus:border-gray-500"
                 value={email}
@@ -110,7 +110,7 @@ const Signin: React.FC = () => {
 
             {/* Display success or error message */}
             {message && (
-              <p className="text-center text-red-400 mt-4">
+              <p className="text-center text-green-400 mt-4">
                 {message}
               </p>
             )}
