@@ -40,7 +40,7 @@ const Signin: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Sign In | Aceternity</title>
+        <title>Sign In</title>
       </Head>
       {/* Outer container with dark background */}
       <div className="min-h-screen bg-black text-white flex items-center justify-center px-4">
